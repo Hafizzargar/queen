@@ -1,12 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+}
 .login-container {
+    z-index: 10;
     width: 300px;
     margin: 0 auto; /* Center horizontally */
     padding: 20px;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
+    float: right;
+    position: relative;
+    z-index: 10;
+    position: fixed;
+    top: 10;
+    right: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 .login-container h2 {
     text-align: center;
@@ -46,4 +62,117 @@
 }
 .show{
     display: block;
+}
+
+.line{
+    
+    
+    
+    background-color: #0074d953;
+
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    height: 300px;
+    overflow: scroll; 
+    scroll-behavior: auto; 
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+}
+.line::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+}
+.line>div{
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    
+    
+  
+}
+.line>div:nth-child(even) {
+    background-color: rgb(255, 0, 0);
+    /* padding: 10px;
+    width: 300px;
+    height: 100%; */
+}
+.line>div:nth-child(odd) {
+    background-color: rgb(0, 204, 255);
+  
+}
+#test{
+
+    width: 300px;
+    height: 300px;
+    background-color: #0074d9;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+    
+}
+#test>div{
+    /* align-items: center; */
+}
+#toggleButton{
+    margin-top: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.foot{
+    background-color: #0074d9;
+    color: #f9f9f9;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* display: inline-flex; */
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 0px;
+}
+#left{
+    left: 0px;
+    width: 200px;
+    height: 1000px;
+    z-index: 11;
+    background-color: #2d8c0e;
+    top: 1px;
+    position: relative;
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 0px 10px 10px 0px;
+
+}
+#new{
+    
+    display: flex;
+}
+#init{
+    display: flex;
+    justify-content: space-between;
+}
+#init>button{
+    border-radius: 100%;
+    background-color: transparent;
+    
+}
+#init>button:hover{
+    border-radius: 50px;
+    background-color: red;
+    color: #ccc;
+    
 }

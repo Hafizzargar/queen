@@ -5,10 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./cs1.css">
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+        <style>
+         
+
+            nav{
+                background-color: #333;
+                color: aliceblue;
+                line-height: 40px;
+            }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            justify-content: space-between;
+            display: flex; /* Make the list items inline */
+        }
+
+        nav li {
+            margin-right: 20px; /* Add spacing between items */
+        }
+
+        nav a {
+            color: aliceblue;
+            text-decoration: none;
+             /* Customize link color */
+            /* Add other styling for the links */
+            
+        }
+        nav a:hover{
+            color: rgba(38, 230, 166, 0.695);
+        }
+    </style>
+        </style>
 </head>
 <body>
-    <button id="toggleButton" onclick="yes()">Login</button>
+    <nav>
+        <ul class=".kal">
+            <li><a href="#home">Home</a></li>
+            
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact/Email</a></li>
+            <li> <button id="toggleButton" onclick="yes()">Login</button></li>
+        </ul>
+    </nav>
+    <marquee onmouseover="this.stop();" onmouseout="this.start();">OFFER VALID FOR YOU ????<a href="./js1.js" target="_blank">CLICK</a></marquee>
+    
+   
     <div class="login-container" style="display: none;">
         <h2>Login</h2>
         <!-- <form action="your_server_endpoint_here" method="post"> -->
@@ -23,7 +69,79 @@
             <button onclick="hide()" type="button" style="padding-top: 10px;border-top:2px solid white;">Close</button>
   
           </form>
+         
     </div>
+    <div id="new">
+        <div><button type="button" onclick="le(this);" style="border-radius: 100px;">More</button></div>
+        <div id="left" style="display: none;">
+           <div id="init"> <h3>Tourist</h3> <button >close</button></div>
+            <h6>a</h6>
+            <h6>b</h6>
+            <h6>c</h6>
+            <h6>d</h6>
+            <h6>e</h6>
+            <h6>f</h6>
+            <h6>g</h6>
+            <h6>h</h6>
+            <h6>i</h6>
+            <h6></h6>
+
+        
+        </div>
+        <div class="line">
+            <div>
+            <img src="https://img.freepik.com/free-vector/sound-wave-background_52683-6667.jpg?w=740&t=st=1722079867~exp=1722080467~hmac=2c542b47d3b5f5c498f165911e76dba21b590e9c217de5daf4e0be4b70e4c1a6" alt="" srcset=""></div>
+            <div><img src="https://img.freepik.com/free-vector/sound-wave-background_52683-6667.jpg?w=740&t=st=1722079867~exp=1722080467~hmac=2c542b47d3b5f5c498f165911e76dba21b590e9c217de5daf4e0be4b70e4c1a6" alt="" srcset=""></div>
+            
+            <div><img src="https://img.freepik.com/free-photo/beautiful-countryside-road-greenery-forests_181624-5399.jpg?t=st=1722080388~exp=1722083988~hmac=0d14edb488f97885be599e95fe4e16c4b4d395fbed35c16d9c9b3e9704b873c3&w=360" alt="" srcset="">
+            </div>
+            <div><img src="https://img.freepik.com/premium-photo/slope-asphalt-road-valley-with-turbine-wind-generate-electricity-hill_49071-4183.jpg?w=740" alt="" srcset=""></div>
+            <div><img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1722079664~exp=1722083264~hmac=554af4f6aa88f7bad0c215108d7632f2b50484426937709bf40ae8f66732c7d8&w=1380" alt="" srcset=""></div>
+            <div><img src="https://img.freepik.com/premium-vector/vector-sunset_188544-7023.jpg?w=740" alt="" srcset=""></div>
+            <div><img src="https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?t=st=1722080895~exp=1722084495~hmac=0aa8d786b31d89b2e365f9010ac747847c129901d41360d363fad0ad2706ffae&w=900" alt="" srcset=""></div>
+            <div><img src="https://img.freepik.com/free-photo/beautiful-countryside-road-greenery-forests_181624-5399.jpg?t=st=1722080388~exp=1722083988~hmac=0d14edb488f97885be599e95fe4e16c4b4d395fbed35c16d9c9b3e9704b873c3&w=360" alt="" srcset=""></div>
+            <div>
+                <img src="https://img.freepik.com/free-vector/sound-wave-background_52683-6667.jpg?w=740&t=st=1722079867~exp=1722080467~hmac=2c542b47d3b5f5c498f165911e76dba21b590e9c217de5daf4e0be4b70e4c1a6" alt="" srcset=""></div>
+                <div><img src="https://img.freepik.com/free-vector/sound-wave-background_52683-6667.jpg?w=740&t=st=1722079867~exp=1722080467~hmac=2c542b47d3b5f5c498f165911e76dba21b590e9c217de5daf4e0be4b70e4c1a6" alt="" srcset=""></div>
+                
+                <div><img src="https://img.freepik.com/free-photo/beautiful-countryside-road-greenery-forests_181624-5399.jpg?t=st=1722080388~exp=1722083988~hmac=0d14edb488f97885be599e95fe4e16c4b4d395fbed35c16d9c9b3e9704b873c3&w=360" alt="" srcset="">
+                </div>
+                <div><img src="https://img.freepik.com/premium-photo/slope-asphalt-road-valley-with-turbine-wind-generate-electricity-hill_49071-4183.jpg?w=740" alt="" srcset=""></div>
+                <div><img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1722079664~exp=1722083264~hmac=554af4f6aa88f7bad0c215108d7632f2b50484426937709bf40ae8f66732c7d8&w=1380" alt="" srcset=""></div>
+                <div><img src="https://img.freepik.com/premium-vector/vector-sunset_188544-7023.jpg?w=740" alt="" srcset=""></div>
+                <div><img src="https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?t=st=1722080895~exp=1722084495~hmac=0aa8d786b31d89b2e365f9010ac747847c129901d41360d363fad0ad2706ffae&w=900" alt="" srcset=""></div>
+                <div><img src="https://img.freepik.com/free-photo/beautiful-countryside-road-greenery-forests_181624-5399.jpg?t=st=1722080388~exp=1722083988~hmac=0d14edb488f97885be599e95fe4e16c4b4d395fbed35c16d9c9b3e9704b873c3&w=360" alt="" srcset=""></div>
+                <div>
+                    <img src="https://img.freepik.com/free-vector/sound-wave-background_52683-6667.jpg?w=740&t=st=1722079867~exp=1722080467~hmac=2c542b47d3b5f5c498f165911e76dba21b590e9c217de5daf4e0be4b70e4c1a6" alt="" srcset=""></div>
+                    <div><img src="https://img.freepik.com/free-vector/sound-wave-background_52683-6667.jpg?w=740&t=st=1722079867~exp=1722080467~hmac=2c542b47d3b5f5c498f165911e76dba21b590e9c217de5daf4e0be4b70e4c1a6" alt="" srcset=""></div>
+                    
+                    <div><img src="https://img.freepik.com/free-photo/beautiful-countryside-road-greenery-forests_181624-5399.jpg?t=st=1722080388~exp=1722083988~hmac=0d14edb488f97885be599e95fe4e16c4b4d395fbed35c16d9c9b3e9704b873c3&w=360" alt="" srcset="">
+                    </div>
+                    <div><img src="https://img.freepik.com/premium-photo/slope-asphalt-road-valley-with-turbine-wind-generate-electricity-hill_49071-4183.jpg?w=740" alt="" srcset=""></div>
+                    <div><img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1722079664~exp=1722083264~hmac=554af4f6aa88f7bad0c215108d7632f2b50484426937709bf40ae8f66732c7d8&w=1380" alt="" srcset=""></div>
+                    <div><img src="https://img.freepik.com/premium-vector/vector-sunset_188544-7023.jpg?w=740" alt="" srcset=""></div>
+                    <div><img src="https://img.freepik.com/free-photo/beautiful-shot-small-lake-with-wooden-rowboat-focus-breathtaking-clouds-sky_181624-2490.jpg?t=st=1722080895~exp=1722084495~hmac=0aa8d786b31d89b2e365f9010ac747847c129901d41360d363fad0ad2706ffae&w=900" alt="" srcset=""></div>
+                    <div><img src="https://img.freepik.com/free-photo/beautiful-countryside-road-greenery-forests_181624-5399.jpg?t=st=1722080388~exp=1722083988~hmac=0d14edb488f97885be599e95fe4e16c4b4d395fbed35c16d9c9b3e9704b873c3&w=360" alt="" srcset=""></div>
+           
+           
+        </div>
+
+    </div>
+
+    
+    
+
+
+
+    <footer> 
+        <div class="foot">
+            <div>Terms and condition </div>
+            <h1>about us</h1>
+        </div>
+
+    </footer>
+
+  
 
    
     
